@@ -59,9 +59,15 @@ form button[type="submit"]:hover{
 
 }
 
+/*Main Section*/
 .recipe-container {
   text-align: center;
   margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+  grid-gap: 40px;
+  width: 80%;
+  margin: 10px auto;
 }
 
 
